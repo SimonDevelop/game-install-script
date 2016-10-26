@@ -3,8 +3,9 @@ Simple script shell pour installer des serveurs de jeux steam sous linux.
 
 ## Pré-requis :
 Fonctionne sous Linux Debian/Ubuntu, mais d'autres distributions peuvent sans doute l'utiliser si les commandes restes les mêmes.
-Vérifier que vous avez bien installer le packet `lib32gcc1` avec un `apt-get install lib32gcc1`.
-Utiliser un utilisateur non root pour l'execution du script.
+
+Vérifier que vous avez bien installer le packet `lib32gcc1` avec un `apt-get install lib32gcc1` et utilisez un utilisateur non root pour l'execution du script.
+
 Commencer par télécharger le script avec `wget https://github.com/Fukotaku/GameInstallScript/blob/master/gameinstall.sh`, puis rendez-le executable avec la commande `chmod +x gameinstall.sh`.
 
 ## Execution du script :
