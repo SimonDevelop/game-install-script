@@ -17,7 +17,7 @@ Pour l'instant, le script permet juste d'installer un serveur de jeu, vous devez
 Vous pouvez aussi ajouter en 3éme et 4éme paramètre le nom d'utilisateur et groupe unix pour les permissions du serveur de jeu, le nom d'utilisateur et groupe unix doivent être créés au préalable.
 Sâchez qu'il n'est pas obligatoire de le faire, mais si vous utilisez le compte root pour éxecuter ce script, celà permet d'éviter d'avoir les droits du serveur uniquement sur ce dernier.
 
-Exemple pour un serveur garry's mod : `./gameinstall.sh /home/games/gmodserver/ 4020 monUserInux groupeUnix`.
+Exemple pour un serveur garry's mod : `./gameinstall.sh /home/games/gmodserver/ 4020 monUserUnix groupeUnix`.
 
 ## Note :
 Attention !
