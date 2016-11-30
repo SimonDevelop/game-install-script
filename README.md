@@ -1,17 +1,23 @@
 # GameInstallScript
 Simple script shell pour installer des serveurs de jeux steam sous linux.
 
-## Pré-requis :
-Fonctionne sous Linux Debian/Ubuntu, mais d'autres distributions peuvent sans doute l'utiliser si les commandes restes les mêmes.
 
-Vérifier que vous avez bien installer le packet `lib32gcc1` avec un `apt-get install lib32gcc1` et utilisez un utilisateur non root pour l'execution du script.
+## Pré-requis :
+Fonctionne sous Linux Debian, mais d'autres distributions peuvent sans doute l'utiliser si les commandes restes les mêmes.
+- Testé sous Linux Debian 8
+
+Vérifier que vous avez bien installer les packets `lib32gcc1 lib32stdc++6` avec un `apt-get install lib32gcc1 lib32stdc++6`.
 
 Commencer par télécharger le script avec `wget https://github.com/Fukotaku/GameInstallScript/blob/master/gameinstall.sh`, puis rendez-le executable avec la commande `chmod +x gameinstall.sh`.
 
 ## Execution du script :
-Pour l'instant, le script permet juste d'installer un serveur de jeu, vous devez préciser en paramètre le chemin absolut ou vous voulez installer votre serveur de jeu, puis en second paramètre l'id du jeu en question.
+Pour l'instant, le script permet juste d'installer un serveur de jeu, vous devez préciser en paramètre le chemin absolut ou vous voulez l'installer, puis en second paramètre l'id du jeu en question.
 
-Exemple pour un serveur garry's mod : `./gameinstall.sh /home/games/gmodserver/ 4020`.
+## Option :
+Vous pouvez aussi ajouter en 3éme et 4éme paramètre le nom d'utilisateur et groupe unix pour les permissions du serveur de jeu, le nom d'utilisateur et groupe unix doivent être créés au préalable.
+Sâchez qu'il n'est pas obligatoire de le faire, mais si vous utilisez le compte root pour éxecuter ce script, celà permet d'éviter d'avoir les droits du serveur uniquement sur ce dernier.
+
+Exemple pour un serveur garry's mod : `./gameinstall.sh /home/games/gmodserver/ 4020 monUserInux groupeUnix`.
 
 ## Note :
 Attention !
