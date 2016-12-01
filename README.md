@@ -7,7 +7,7 @@ Pour toutes contribution sur github, merci de lire le document [CONTRIBUTING.md]
 Fonctionne sous Linux Debian, mais d'autres distributions peuvent sans doute l'utiliser si les commandes restes les mêmes.
 - Testé sous Linux Debian 8
 
-Vérifier que vous avez bien installer les packets `wget curl lib32gcc1 lib32stdc++6` avec un `apt-get install wget curl lib32gcc1 lib32stdc++6`.
+Vérifier que vous avez bien installer les packets `wget curl gzip bzip2 lib32gcc1 lib32stdc++6` avec un `apt-get install wget curl gzip bzip2 lib32gcc1 lib32stdc++6`.
 
 Commencer par télécharger le script avec `wget https://github.com/Fukotaku/GameInstallScript/blob/master/gameinstall.sh`, puis rendez-le executable avec la commande `chmod +x gameinstall.sh`.
 
