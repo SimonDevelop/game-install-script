@@ -9,9 +9,9 @@ Pour toutes contribution sur github, merci de lire le document [CONTRIBUTING.md]
 Fonctionne sous Linux Debian, mais d'autres distributions peuvent sans doute l'utiliser si les commandes restes les mêmes.
 - Testé sous Linux Debian 8
 
-Vérifier que vous avez bien installer les packets `wget curl gzip bzip2 lib32gcc1 lib32stdc++6` avec un `apt-get install wget curl gzip bzip2 lib32gcc1 lib32stdc++6`.
+Vérifier que vous avez bien installer les packets `wget git curl gzip bzip2 lib32gcc1 lib32stdc++6` avec un `apt-get install wget curl gzip bzip2 lib32gcc1 lib32stdc++6`.
 
-Commencer par télécharger le script avec `wget https://github.com/Fukotaku/GameInstallScript/blob/master/gameinstall.sh`, puis rendez-le executable avec la commande `chmod +x gameinstall.sh`.
+Commencer par télécharger le repository avec `git clone https://github.com/Fukotaku/GameInstallScript.git`, rendez-vous dans le dossier puis rendez le script executable avec la commande `chmod +x gameinstall.sh`.
 
 ## Execution du script :
 Pour l'instant, le script permet juste d'installer un serveur de jeu, vous devez préciser en paramètre le chemin absolut ou vous voulez l'installer, puis en second paramètre l'id du jeu en question.
