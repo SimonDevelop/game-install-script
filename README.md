@@ -1,3 +1,5 @@
+[![version](https://img.shields.io/badge/Version-1.1-brightgreen.svg)]()
+[![license](https://img.shields.io/badge/License-MIT-blue.svg)]()
 # GameInstallScript
 Simple script shell pour installer des serveurs de jeux steam sous linux.
 
