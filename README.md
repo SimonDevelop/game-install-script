@@ -1,6 +1,7 @@
 # GameInstallScript
 Simple script shell pour installer des serveurs de jeux steam sous linux.
 
+Pour toutes contribution sur github, merci de lire le document [CONTRIBUTING.md](https://github.com/Fukotaku/GameInstallScript/blob/master/CONTRIBUTING.md)
 
 ## Pré-requis :
 Fonctionne sous Linux Debian, mais d'autres distributions peuvent sans doute l'utiliser si les commandes restes les mêmes.
