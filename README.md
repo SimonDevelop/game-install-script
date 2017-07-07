@@ -1,9 +1,9 @@
 [![version](https://img.shields.io/badge/Version-1.1-brightgreen.svg)]()
 [![license](https://img.shields.io/badge/License-MIT-blue.svg)]()
-# GameInstallScript
+# game-install-script
 Simple script shell pour installer des serveurs de jeux steam sous linux.
 
-Pour toutes contribution sur github, merci de lire le document [CONTRIBUTING.md](https://github.com/Fukotaku/GameInstallScript/blob/master/CONTRIBUTING.md)
+Pour toutes contribution sur github, merci de lire le document [CONTRIBUTING.md](https://github.com/Fukotaku/game-install-script/blob/master/CONTRIBUTING.md)
 
 ## Pré-requis :
 Fonctionne sous Linux Debian, mais d'autres distributions peuvent sans doute l'utiliser si les commandes restes les mêmes.
@@ -11,7 +11,7 @@ Fonctionne sous Linux Debian, mais d'autres distributions peuvent sans doute l'u
 
 Vérifier que vous avez bien installer les packets `wget git curl gzip bzip2 lib32gcc1 lib32stdc++6` avec un `apt-get install wget curl gzip bzip2 lib32gcc1 lib32stdc++6`.
 
-Commencer par télécharger le repository avec `git clone https://github.com/Fukotaku/GameInstallScript.git`, rendez-vous dans le dossier puis rendez le script executable avec la commande `chmod +x gameinstall.sh`.
+Commencer par télécharger le repository avec `git clone https://github.com/Fukotaku/game-install-script.git`, rendez-vous dans le dossier puis rendez le script executable avec la commande `chmod +x gameinstall.sh`.
 
 ## Execution du script :
 Pour l'instant, le script permet juste d'installer un serveur de jeu, vous devez préciser en paramètre le chemin absolut ou vous voulez l'installer, puis en second paramètre l'id du jeu en question.
@@ -25,4 +25,4 @@ Exemple pour un serveur garry's mod : `./gameinstall.sh /home/games/gmodserver/ 
 ## Note :
 Attention !
 Seul les jeux demandants une authentification `anonymous` à la console steamcmd sont fonctionnel via ce script, vous pouvez retrouver la liste des jeux disponibles avec leur id et le login autorisé sur le site de [developer.valvesoftware](https://developer.valvesoftware.com/wiki/Dedicated_Servers_List).
-Des mises à jours pour l'optimisation du script est à prévoir, surveillez les [releases](https://github.com/Fukotaku/GameInstallScript/releases) !
+Des mises à jours pour l'optimisation du script est à prévoir, surveillez les [releases](https://github.com/Fukotaku/game-install-script/releases) !
