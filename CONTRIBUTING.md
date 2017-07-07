@@ -8,27 +8,12 @@ Les issues sont faits pour le signalement de bugs et demande de nouvelles foncti
 S'il vous plaît ne pas utiliser les issues pour les demandes de soutien en cas de problème d'utilisation, les explications sont citées dans le [README.md](https://github.com/Fukotaku/game-install-script/blob/master/README.md).
 
 
-
 ## L'utilisation des issues
 * S'il vous plaît, ne pas utiliser les issues pour les demandes de soutien personnel.
 
 * S'il vous plaît, ne pas dérailler ou troller les issues. Gardez la discussion sur le sujet et de respecter les opinions des autres.
 
 * S'il vous plaît, vérifiez les anciens issues avant de postez le votre pour éviter tout doublon.
-
-
-## Les labels des issues
-Les issues peuvent êtres créer avec des étiquettes qui sont faits pour définir le type d'issue que vous postez:
-
-* `Bug` - Les erreurs majeures qui empêche l'application de fonctionner correctement.
-
-* `Erreur visuel` - Les fautes d'orthographe dans les retours de texte.
-
-* `Fonctionnalité` - Les propositions d'ajout de nouvelle fonctionnalité, avec ou sans pull request.
-
-* `Optimisation` - Les propositions pour l'optimisation du code source.
-
-* `Question` - Les questions sur le script ou vous n'avez pas la réponse sur le [README.md](https://github.com/Fukotaku/game-install-script/blob/master/README.md).
 
 
 ## Les issues bugs
