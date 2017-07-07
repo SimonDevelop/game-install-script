@@ -29,4 +29,4 @@ Exemple pour un serveur garry's mod : `./gameinstall.sh /home/games/gmodserver/ 
 ## Note :
 Attention !
 Seul les jeux demandants une authentification `anonymous` à la console steamcmd sont fonctionnel via ce script, vous pouvez retrouver la liste des jeux disponibles avec leur id et le login autorisé sur le site de [developer.valvesoftware](https://developer.valvesoftware.com/wiki/Dedicated_Servers_List).
-Des mises à jours pour l'optimisation du script est à prévoir, surveillez les [releases](https://github.com/Fukotaku/game-install-script/releases) !
+Des mises à jours sont à prévoir, surveillez les [releases](https://github.com/Fukotaku/game-install-script/releases) !
