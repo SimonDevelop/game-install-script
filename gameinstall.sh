@@ -1,5 +1,5 @@
 #!/bin/bash
-## ./gameinstall repository id-game unix-user unix-group##
+## ./gameinstall repository id-game unix-user unix-group
 
 ## Vérification de steamcmd
 if [ ! -f ${PWD##*/steamcmd.sh} ];then
@@ -18,7 +18,7 @@ else
   echo "2 paramètres sont demandés"
 fi
 
-## Lancement de la mise en place des permission (si paramètre 3 et 4)
+## Lancement de la mise en place des permissions (si paramètre 3 et 4)
 if [ ! -f "$3" ];then
   if [ ! -f "$4" ];then
     chown -R $3:$4 $1
