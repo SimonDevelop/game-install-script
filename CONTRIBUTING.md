@@ -5,7 +5,7 @@ S'il vous plaît prennez le temps d'examiner ce document dans le but de rendre l
 
 Les issues sont faits pour le signalement de bugs et demande de nouvelles fonctionnalités.
 
-S'il vous plaît ne pas utiliser les issues pour les demandes de soutien en cas de problème d'utilisation, les explications sont citées dans le [README.md](https://github.com/Fukotaku/game-install-script/blob/master/README.md).
+S'il vous plaît ne pas utiliser les issues pour les demandes de soutien en cas de problème d'utilisation, les explications sont citées dans le [README.md](https://github.com/SimonDevelop/game-install-script/blob/master/README.md).
 
 
 ## L'utilisation des issues
@@ -17,7 +17,7 @@ S'il vous plaît ne pas utiliser les issues pour les demandes de soutien en cas 
 
 
 ## Les issues bugs
-Pour toutes envoies d'issue sur des bugs, merci de bien expliquer votre problème en citant les **étapes que vous avez effectuées**, la **configuration de votre environnement**, d'accompagner d'un ou plusieurs **screenshots** si besoin et d'avoir vérifié la documentation sur le [README.md](https://github.com/Fukotaku/game-install-script/blob/master/README.md) avant de poster.
+Pour toutes envoies d'issue sur des bugs, merci de bien expliquer votre problème en citant les **étapes que vous avez effectuées**, la **configuration de votre environnement**, d'accompagner d'un ou plusieurs **screenshots** si besoin et d'avoir vérifié la documentation sur le [README.md](https://github.com/SimonDevelop/game-install-script/blob/master/README.md) avant de poster.
 
 ## Les pull requests
 Pour l'envoi de pull requests, merci de commiter vos modifications/ajouts sur une branche à part exemple : `feature-update`.
