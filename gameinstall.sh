@@ -1,5 +1,5 @@
 #!/bin/bash
-## ./gameinstall repository id-game unix-user unix-group
+## ./gameinstall.sh repository id-game unix-user unix-group
 
 ## Vérification de steamcmd
 if [ ! -f ${PWD##*/steamcmd.sh} ];then
@@ -22,7 +22,7 @@ fi
 if [ ! -f "$3" ];then
   if [ ! -f "$4" ];then
     chown -R $3:$4 $1
-    chmod -R 775 $1
+    chmod -R 774 $1
   else
     echo "Un 4ème paramètre est demandé"
   fi
